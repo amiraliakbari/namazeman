@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "IranSans";
+  src: url("/app/fonts/IranSans/woff2/IRANSansWebFa.woff2") format("woff2"), url("/app/fonts/IranSans/woff2/IRANSansWebFa.woff") format("woff"); }
+*, body {
+  direction: rtl;
+  font-family: IranSans, Nazanin, BNazanin, "B Nazanin", Tahoma, serif; }
+
+body {
+  padding-top: 45px; }
+
+.page {
+  margin: 25px 0; }
+
+header nav a.navbar-brand {
+  padding-right: 30px;
+  padding-left: 30px; }
+header nav .sub-brand {
+  color: #007E33 !important;
+  font-size: smaller;
+  padding: 9px 1px; }
+
+.older {
+  background-color: #f1f8e9; }
+
+#news .card {
+  position: relative;
+  margin: 15px 0; }
+#news .card:first-child + .card.older {
+  margin-top: 30px; }
+#news .card .btn {
+  position: absolute;
+  left: 7px;
+  bottom: 5px; }
+#news .card p {
+  margin-left: 45px; }
+
+/*# sourceMappingURL=style.css.map */
